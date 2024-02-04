@@ -132,13 +132,13 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "GitHub"
-     icon: "fab fa-fw fa-github"
-     url: "https://github.com/chanyoungP"
+    # - label: "GitHub"
+    #  icon: "fab fa-fw fa-github"
+    #  url: "https://github.com/chanyoungP"
 
-    - label: "Email"
-     icon: "fas fa-fw fa-envelope-square"
-     url: "mailto:chanchany0112@gmail.com"
+    # - label: "Email"
+    #  icon: "fas fa-fw fa-envelope-square"
+    #  url: "mailto:chanchany0112@gmail.com"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   # url:
