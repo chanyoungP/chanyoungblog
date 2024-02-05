@@ -1,7 +1,7 @@
 var store = [{
-        "title": "About Me",
-        "excerpt":"저를 소개합니다.  이름 : 박찬영  ","categories": [],
-        "tags": ["Blog"],
+        "title": "About",
+        "excerpt":"  왼쪽 정렬입니다. 원하는 이미지를 원하는 위치에서 표출할 수 있는 예시입니다. 해당 출처는 minimal mistakes의 공식 사이트에 나와있는 글을 참조했습니다.  그 중에서 제가 자주 사용하는 내용만 가져왔습니다.           인사말   학력사항   경력사항   프로젝트   활동사항   수상   자격증  ","categories": [],
+        "tags": [],
         "url": "/aboutme/",
         "teaser": null
       },{

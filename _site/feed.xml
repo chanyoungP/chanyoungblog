@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-04T17:21:54+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">1 day 1 plus</title><subtitle>꾸준하게 합시다.</subtitle><author><name>chanyoung park</name><email>chanchany0112@gmail.com</email></author><entry><title type="html">About Me</title><link href="http://localhost:4000/aboutme/" rel="alternate" type="text/html" title="About Me" /><published>2024-02-04T00:00:00+09:00</published><updated>2024-02-04T00:00:00+09:00</updated><id>http://localhost:4000/aboutme</id><content type="html" xml:base="http://localhost:4000/aboutme/"><![CDATA[<h3 id="저를-소개합니다">저를 소개합니다.</h3>
-<p>이름 : 박찬영</p>]]></content><author><name>chanyoung park</name><email>chanchany0112@gmail.com</email></author><category term="Blog" /><summary type="html"><![CDATA[안녕하세요. 박찬영입니다.]]></summary></entry><entry><title type="html">github.io 블로그 첫 포스팅입니다.</title><link href="http://localhost:4000/first-post/" rel="alternate" type="text/html" title="github.io 블로그 첫 포스팅입니다." /><published>2024-02-04T00:00:00+09:00</published><updated>2024-02-04T00:00:00+09:00</updated><id>http://localhost:4000/first-post</id><content type="html" xml:base="http://localhost:4000/first-post/"><![CDATA[<h3 id="앞으로-작성할-글에-대해서">앞으로 작성할 글에 대해서…</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-05T09:48:02+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">chanyoung’s blog</title><subtitle>꾸준하게 합시다.</subtitle><author><name>chanyoung park</name><email>chanchany0112@gmail.com</email></author><entry><title type="html">About</title><link href="http://localhost:4000/aboutme/" rel="alternate" type="text/html" title="About" /><published>2024-02-04T00:00:00+09:00</published><updated>2024-02-04T00:00:00+09:00</updated><id>http://localhost:4000/aboutme</id><content type="html" xml:base="http://localhost:4000/aboutme/"><![CDATA[<p class="align-left"><img src="https://user-images.githubusercontent.com/45550607/102208312-9b284180-3f12-11eb-8467-7b5ea1779ac7.png" alt="image" /></p>
+<p>왼쪽 정렬입니다. 원하는 이미지를 원하는 위치에서 표출할 수 있는 예시입니다.
+해당 출처는 minimal mistakes의 공식 사이트에 나와있는 글을 참조했습니다. 
+그 중에서 제가 자주 사용하는 내용만 가져왔습니다. <br />
+<br />
+<br /></p>
+
+<hr />
+
+<h3 id="인사말">인사말</h3>
+
+<h3 id="학력사항">학력사항</h3>
+
+<h3 id="경력사항">경력사항</h3>
+
+<h3 id="프로젝트">프로젝트</h3>
+
+<h3 id="활동사항">활동사항</h3>
+
+<h3 id="수상">수상</h3>
+
+<h3 id="자격증">자격증</h3>]]></content><author><name>chanyoung park</name><email>chanchany0112@gmail.com</email></author><summary type="html"><![CDATA[왼쪽 정렬입니다. 원하는 이미지를 원하는 위치에서 표출할 수 있는 예시입니다. 해당 출처는 minimal mistakes의 공식 사이트에 나와있는 글을 참조했습니다. 그 중에서 제가 자주 사용하는 내용만 가져왔습니다.]]></summary></entry><entry><title type="html">github.io 블로그 첫 포스팅입니다.</title><link href="http://localhost:4000/first-post/" rel="alternate" type="text/html" title="github.io 블로그 첫 포스팅입니다." /><published>2024-02-04T00:00:00+09:00</published><updated>2024-02-04T00:00:00+09:00</updated><id>http://localhost:4000/first-post</id><content type="html" xml:base="http://localhost:4000/first-post/"><![CDATA[<h3 id="앞으로-작성할-글에-대해서">앞으로 작성할 글에 대해서…</h3>
 <p>앞으로 마크다운도 연습하면서, 그동안 노션에 적어두었던, 공부 내용들을 포스팅할 계획입니다. 
 블로그를 개설하고 포스팅할 때, 참고한 블로그 입니다 <a href="https://eona1301.github.io/categories/">참고 블로그</a></p>]]></content><author><name>chanyoung park</name><email>chanchany0112@gmail.com</email></author><category term="Blog" /><summary type="html"><![CDATA[Github Blog 연습을 위해 써봅니다.]]></summary></entry></feed>

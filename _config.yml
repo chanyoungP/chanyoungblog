@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "1 day 1 plus"
+title                    : "chanyoung's blog"
 title_separator          : "-"
 subtitle                 : "하루에 지식 하나" # site tagline that appears below site title in masthead
 name                     : "박찬영(chanyoung park)"
@@ -110,9 +110,9 @@ author:
   location         : "Seoul"
   email            : "chanchany0112@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:chanchany0112@gmail.com"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:chanchany0112@gmail.com"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   # url: "https://your-website.com"
