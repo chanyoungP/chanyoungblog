@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-05T09:48:02+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">chanyoung’s blog</title><subtitle>꾸준하게 합시다.</subtitle><author><name>chanyoung park</name><email>chanchany0112@gmail.com</email></author><entry><title type="html">About</title><link href="http://localhost:4000/aboutme/" rel="alternate" type="text/html" title="About" /><published>2024-02-04T00:00:00+09:00</published><updated>2024-02-04T00:00:00+09:00</updated><id>http://localhost:4000/aboutme</id><content type="html" xml:base="http://localhost:4000/aboutme/"><![CDATA[<p class="align-left"><img src="https://user-images.githubusercontent.com/45550607/102208312-9b284180-3f12-11eb-8467-7b5ea1779ac7.png" alt="image" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-07T11:14:06+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">chanyoung’s blog</title><subtitle>꾸준하게 합시다.</subtitle><author><name>chanyoung park</name><email>chanchany0112@gmail.com</email></author><entry><title type="html">Tdd에 대해서</title><link href="http://localhost:4000/TDD/" rel="alternate" type="text/html" title="Tdd에 대해서" /><published>2024-02-07T00:00:00+09:00</published><updated>2024-02-07T00:00:00+09:00</updated><id>http://localhost:4000/TDD</id><content type="html" xml:base="http://localhost:4000/TDD/"><![CDATA[<h2 id="skt-fly-ai-프로젝트를-진행하면서-팀원에게-tdd-방식의-순서를-정리해봤습니다">SKT FLY AI 프로젝트를 진행하면서 팀원에게 TDD 방식의 순서를 정리해봤습니다.</h2>
+
+<h3 id="tdd란">TDD란?</h3>
+<p>테스트 주도 개발, Test-Driven Development이며 개발 방법 중 하나입니다.
+TDD는 기능을 먼저 생각하고 개발하는 것이 아니라, 테스트를 먼저 생각하는 방법인데요.
+테스트를 먼저 생각하고, 그 테스트를 통과하는 코드를 작성하면서 개발합니다.</p>
+
+<p>TDD의 주요 단계는 <strong>Red</strong>, <strong>Green</strong>, <strong>Refactor</strong> 단계로 이루어져 있습니다.</p>
+<ol>
+  <li>Red(테스트 작성)
+     &gt; 만들고 싶은 기능에 대한 테스트 시나리오를 작성하고, 실패하는 코드를 작성합니다.</li>
+  <li>Green(코드 작성)
+     &gt; 테스트를 통과하는 최소한의 코드를 작성(코드를 간단하게 작성하지 말고 나이브하게 작성합니다.)</li>
+  <li>Refactor(리팩터링)
+     &gt; 통과 코드에 대해서 가독성과, 효율, 재사용성을 높여서 코드를 수정합니다.</li>
+</ol>
+
+<p>TDD는 위 3가지 과정을 반복하면서 개발을 진행합니다.</p>
+
+<h3 id="pytest">Pytest</h3>
+<p>Pytest는 TDD 방식으로 개발을 할 때, 쉽게 테스트를 할 수 있는 프레임워크입니다.</p>
+
+<p>Pytest 사용 예시는 다음과 같습니다. 
+<script src="https://gist.github.com/chanyoungP/6d53bb0b019935ed37e617ce8f17ddb5.js"></script>
+이미지를 불러오는 성공 케이스에 대한 테스트를 진행하고 싶을 때, <code class="language-plaintext highlighter-rouge">test</code> 를 붙여서 함수를 만들고, <code class="language-plaintext highlighter-rouge">assert</code> 구문으로 단위 테스트에 대한 조건을 달아줍니다. (파일 이름에 test가 붙어도 자동으로 탐색하고 실행)</p>
+
+<p>다음 터미널에서 <code class="language-plaintext highlighter-rouge">pytest &lt;test_file_name.py&gt;</code> 를 실행하면 자동으로 <code class="language-plaintext highlighter-rouge">test</code> 가 붙어있는 함수들을 테스트합니다.</p>
+
+<h3 id="실패-코드-테스트">실패 코드 테스트</h3>
+<p>TDD에서 가장 중요한 것은 실패하는 케이스를 테스트하는 것이라 생각합니다. 
+예를 들어 앞전 예제에서 처럼 이미지 path를 받아서 open하는 작업을 하려고 할 때, image path가 잘못된 경우를 생각할 수 있습니다. 
+<script src="https://gist.github.com/chanyoungP/ba549672d70087af9ba307679cbab841.js"></script>
+이런 방식으로 Exception 에러를 받아서 assert 구문에 넣어줄 수 있습니다.</p>
+
+<h3 id="리팩토링">리팩토링</h3>
+<p>이제 코드를 간단하게 만들어야 합니다. 코드를 간단하게 만드는 것은, 팀원들에게 공유할 때, 또는 재사용성을 위해서 중요한 작업입니다.</p>
+
+<p>그냥 코드 -&gt; 함수 -&gt; 클래스
+순으로 완성하는 단계를 거칩니다.</p>
+
+<p>이전에 작성한 test code를 함수로 만든 코드입니다. 
+<script src="https://gist.github.com/chanyoungP/cc4e7021fb5594fc666863b2808bf077.js"></script>
+현재 예시로 든 작업이 간단한 작업이어서 함수로 바꾸는게 의미가 없어보이지만, test자체가 복잡해지면 코드가 훨씬 간결해집니다.</p>
+
+<h3 id="custom-exception">Custom Exception</h3>
+<p>예외를 처리할 때, custom exception을 만들어서 처리하면 수월하게 에러를 컨트롤할 수 있습니다. 이는 보통 서비스 단에서 프론트에 어떤 메시지를 보내고, 백엔드에 어떤 로그를 남길지를 작성할 수 있어서 편리합니다. 
+<script src="https://gist.github.com/chanyoungP/e9e423874a271aed63b5205ea001ea4a.js"></script>
+이와같이 custom exception .py를 만들고 
+<script src="https://gist.github.com/chanyoungP/874c44f7aaed9c323449ce7cbb970a10.js"></script>
+커스텀 에러 파일을 만들어서 에러들을 정의해주면 
+<script src="https://gist.github.com/chanyoungP/5d1e3c80c0d0aa91c33ffa1b52e31103.js"></script></p>
+
+<p>다음과 같이 변경해줄 수 있습니다.</p>
+
+<p>이런 식으로 최종적으로는 함수들을 모아서 클래스로 만들면 간결하게 체계적으로 개발을 진행할 수 있음을 배웠습니다.</p>
+
+<h3 id="flake8-확장-기능">Flake8 확장 기능</h3>
+<p>Flake8은 파이썬 코드 스타일을 검사하고 코드 품질을 향상시키는 데 사용되는 도구입니다. 
+Flake8은 여러 개의 도구를 통합하여 제공하고 있습니다. 각각의 도구들이 다음과 같은 목적으로 사용됩니다:</p>
+<ol>
+  <li><strong>pyflakes</strong>: 파이썬 코드를 분석하여 문법 오류나 미사용 변수, 임포트하지 않은 모듈 등을 찾습니다.</li>
+  <li><strong>pycodestyle (formerly pep8)</strong>: PEP 8 스타일 가이드를 준수하는지 검사하여 코드의 일관성을 유지합니다.</li>
+  <li><strong>McCabe</strong>: 코드의 복잡성을 측정하여 복잡한 코드를 식별하고 개선하는 데 도움을 줍니다.
+Flake8을 사용하면, 코드를 간결하고 통일성 있게 작성할 수 있지만, 너무 맞추기가 힘든 단점도 있습니다.</li>
+</ol>]]></content><author><name>chanyoung park</name><email>chanchany0112@gmail.com</email></author><summary type="html"><![CDATA[SKT FLY AI 프로젝트를 진행하면서 팀원에게 TDD 방식의 순서를 정리해봤습니다.]]></summary></entry><entry><title type="html">About</title><link href="http://localhost:4000/aboutme/" rel="alternate" type="text/html" title="About" /><published>2024-02-04T00:00:00+09:00</published><updated>2024-02-04T00:00:00+09:00</updated><id>http://localhost:4000/aboutme</id><content type="html" xml:base="http://localhost:4000/aboutme/"><![CDATA[<p class="align-left"><img src="https://user-images.githubusercontent.com/45550607/102208312-9b284180-3f12-11eb-8467-7b5ea1779ac7.png" alt="image" /></p>
 <p>왼쪽 정렬입니다. 원하는 이미지를 원하는 위치에서 표출할 수 있는 예시입니다.
 해당 출처는 minimal mistakes의 공식 사이트에 나와있는 글을 참조했습니다. 
 그 중에서 제가 자주 사용하는 내용만 가져왔습니다. <br />

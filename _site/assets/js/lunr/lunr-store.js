@@ -10,4 +10,10 @@ var store = [{
         "tags": ["Blog"],
         "url": "/first-post/",
         "teaser": null
+      },{
+        "title": "Tdd에 대해서",
+        "excerpt":"SKT FLY AI 프로젝트를 진행하면서 팀원에게 TDD 방식의 순서를 정리해봤습니다. TDD란? 테스트 주도 개발, Test-Driven Development이며 개발 방법 중 하나입니다. TDD는 기능을 먼저 생각하고 개발하는 것이 아니라, 테스트를 먼저 생각하는 방법인데요. 테스트를 먼저 생각하고, 그 테스트를 통과하는 코드를 작성하면서 개발합니다. TDD의 주요 단계는 Red, Green, Refactor 단계로 이루어져 있습니다. Red(테스트...","categories": [],
+        "tags": [],
+        "url": "/TDD/",
+        "teaser": null
       }]
