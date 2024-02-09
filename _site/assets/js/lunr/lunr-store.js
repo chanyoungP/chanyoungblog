@@ -1,6 +1,6 @@
 var store = [{
-        "title": "About",
-        "excerpt":"  왼쪽 정렬입니다. 원하는 이미지를 원하는 위치에서 표출할 수 있는 예시입니다. 해당 출처는 minimal mistakes의 공식 사이트에 나와있는 글을 참조했습니다.  그 중에서 제가 자주 사용하는 내용만 가져왔습니다.           인사말   학력사항   경력사항   프로젝트   활동사항   수상   자격증  ","categories": [],
+        "title": "About Me",
+        "excerpt":"인사말 안녕하세요, 현재 인공지능 개발자를 꿈꾸면서 공부하고 있는 박찬영입니다. 아직 부족한 점이 많아서 공부하고 있습니다. 공부 하면서 매일 하나라도 뭔가를 얻어가자는 마음으로 블로그를 개설했습니다. 블로그에서는 작은 개념이라도 알고 있으면 좋겠다고 생각한 내용을 남길려고 합니다. 잘 부탁드립니다! 학력사항 B.A. Applied Statistics, Konkuk University (2017.03 ~ 2023.08) B.S. Computer Science and Engineering,...","categories": [],
         "tags": [],
         "url": "/aboutme/",
         "teaser": null
